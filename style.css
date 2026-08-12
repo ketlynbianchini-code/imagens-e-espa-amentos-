@@ -1,0 +1,6 @@
+.imagem-post {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Opcional: deixa os cantos arredondados */
+  margin: 20px 0;    /* Espaçamento em cima e embaixo */
+}
