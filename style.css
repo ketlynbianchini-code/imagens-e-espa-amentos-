@@ -1,1 +1,77 @@
+/* Reset básico e tipografia */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8ff; /* Azul claro remetendo ao tema */
+  color: #2c3e50;
+}
+
+header {
+  background-color: #0077b6;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.post {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+  color: #0096c7;
+  margin-bottom: 1rem;
+}
+
+.post p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Ajuste proporcional da imagem */
+.imagem-post {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  display: block;
+  object-fit: cover;
+}
+
+/* Botão interativo */
+.btn-curtir {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-curtir:hover {
+  background-color: #0096c7;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
